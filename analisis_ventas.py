@@ -16,7 +16,7 @@ print(df.head())
 plt.bar(df['Producto'],df['Precio_Total'])
 plt.xlabel('Producto')
 plt.ylabel('Precio_Total')
-plt.title('Precio Total por Producto')
+plt.title('Precio Total por Productos')
 plt.savefig('grafico_precios.png')
 plt.show()
 
