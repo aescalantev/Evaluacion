@@ -14,7 +14,7 @@ df['Precio_Total']=df['Cantidad']*df['Precio']
 print(df.head())
 
 plt.bar(df['Producto'],df['Precio_Total'])
-plt.xlabel('Producto')
+plt.xlabel('Productito')
 plt.ylabel('Precio_Total')
 plt.title('Precio Total por Producto')
 plt.savefig('grafico_precios.png')
